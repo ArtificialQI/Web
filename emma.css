@@ -1,0 +1,134 @@
+*
+{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+body
+{
+     background-image: url(images/04.jpg); 
+}
+#header
+{
+    color: rebeccapurple;
+}
+h3.style
+{
+    color: darkred;
+}
+p.style
+{
+    color: gold;
+}
+p i
+{
+    color: teal;
+}
+
+p.example, b
+{
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+p#example:first-letter
+{
+    color: red;
+}
+
+p#example:first-line
+{
+    color: saddlebrown;
+}
+
+.href
+{
+    color: black;
+    text-decoration: none;
+}
+.href:hover
+{
+    color:midnightblue;
+}
+#text_style
+{
+    font-size: 1.1em;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    text-align: left;
+    text-indent: 1.1em;
+    text-transform: capitalize;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+}
+#test_block
+{
+    border: 1px dotted dimgray;
+    border-bottom: 1px dashed rebeccapurple;
+    height: auto;
+    width: auto;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+header
+{
+    width: calc(100% - 20px);
+    height: auto;
+    background-color: black;
+    border: 2px solid grey;
+    font-size: 1.2em;
+    color: honeydew;
+    text-align: center;
+    margin-bottom: 20px;
+}
+footer
+{
+    width: calc(100% - 20px);
+    margin-top: 20px;
+    height: auto;
+    background-color: black;
+    border: 2px solid grey;
+    font-size: 1.2em;
+    color: honeydew;
+    text-align: center;
+    float: left;
+}
+
+article, aside
+{
+    background-color: rgb(53, 52, 52);
+    height: 400px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    box-sizing: border-box;
+}
+
+article
+{
+    float: right;
+    width: 60%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+aside
+{
+    float: left;
+    width: 30%;
+    top: 30px;
+}
+span
+{
+    display: block;
+    height: 50px;
+    width: 100px;
+    border: 1px solid red;
+    overflow: auto;
+}
+aside ul
+{
+    width: 80%;
+    list-style-position: inside;
+    list-style-type: decimal-leading-zero;
+}
